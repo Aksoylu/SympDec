@@ -16,4 +16,4 @@ Covid19 detection from voice. Using autoencoders and logistic regression.
   <img src="assets/example.png" width="200px"/>
 </p>
 
-### Source codes will be published in next week (10/15/2021)
+### Source codes will be published soon

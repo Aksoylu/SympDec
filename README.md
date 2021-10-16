@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="assets/head.png" alt="Header of Sound Like Covid""/>
+  <img src="assets/head.png" alt="Header of Sound Like Covid""/><br>
+ You can try working demo on https://covid.aksoylu.space web address.<br><br>
+
 </p>
                                                               
 # Sounds-Like-Covid
@@ -11,7 +13,6 @@ Covid19 detection from voice. Using autoencoders and logistic regression.
 
 
 <p align="center">
-  You can try working demo on https://covid.aksoylu.space web address.<br><br>
 
   <img src="assets/example.png" width="200px"/>
 </p>

@@ -8,13 +8,12 @@
 Covid19 detection from voice. Using Auto-Encoders and LSTM Networks.
                                                               
 ## Usage :
-![Usage Gif](assets/usage.gif "Usage of Sound Like Covid")
-
-
-
+                                                         
 <p align="center">
 
-  <img src="assets/example.png" width="200px"/>
+  <img src="assets/usage.gif" width="90%"/>
 </p>
 
 ### Source codes will be published soon
+                                         
+  <img src="assets/example.png" width="300px"/>

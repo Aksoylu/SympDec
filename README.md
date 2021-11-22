@@ -5,7 +5,7 @@
 </p>
                                                               
 # Sounds-Like-Covid
-Covid19 detection from voice. Using autoencoders and logistic regression.
+Covid19 detection from voice. Using Auto-Encoders and LSTM Networks.
                                                               
 ## Usage :
 ![Usage Gif](assets/usage.gif "Usage of Sound Like Covid")

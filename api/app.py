@@ -10,7 +10,7 @@ import requests
 requests.packages.urllib3.disable_warnings()
 import json
 API_URL = "https://covid.aksoylu.space/API/PROCESS"
-API_KEY = "cPb4FTIJdoNDFfF9J9yb9OsW22SPI4BD" ### PLACE YOUR API KEY HERE !###
+API_KEY = "" ### PLACE YOUR API KEY HERE !###
 
 def justSoundAnalyze(path):
     r = requests.post(API_URL, verify=False, 

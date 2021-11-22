@@ -7,9 +7,10 @@
 # Github      : https://github.com/Aksoylu
 
 import requests
+requests.packages.urllib3.disable_warnings()
 import json
 API_URL = "https://covid.aksoylu.space/API/PROCESS"
-API_KEY = "" ### PLACE YOUR API KEY HERE !###
+API_KEY = "cPb4FTIJdoNDFfF9J9yb9OsW22SPI4BD" ### PLACE YOUR API KEY HERE !###
 
 def justSoundAnalyze(path):
     r = requests.post(API_URL, verify=False, 
@@ -41,9 +42,16 @@ def analyzeWithCoordinates(path, coordinates):
 
 filePath = "ExampleData/positive1.wav"
 analyzeResult = justSoundAnalyze(filePath)
-analyzeResult = json.dumps(analyzeResult)
+analyzeResult = json.loads(analyzeResult)
 print("="*5,"Analyze for following sound file : ",filePath , "="*5)
-print(analyzeResult)
+
+print(  "\nDiagnosis : ", analyzeResult['diagnosis'],
+        "\nratio : ", analyzeResult['ratio'],
+        "\nlocale : ", analyzeResult['locale'],
+        "\nlocalRisk : ", analyzeResult['localRisk']
+)
+
+
 print("="*10)
 
 
@@ -51,8 +59,15 @@ filePath = "ExampleData/negative1.wav"
 location = {'lat' :"41.003215", 'lon': "29.092704"} # Istanbul, Atesehir Coordinates 
 
 anotherAnalyzeResult = analyzeWithCoordinates(filePath, location)
+anotherAnalyzeResult = json.loads(anotherAnalyzeResult)
 
 print("="*5,"Analyze for following sound file : ",filePath , "="*5)
-print(anotherAnalyzeResult)
+
+print(  "\nDiagnosis : ", anotherAnalyzeResult['diagnosis'],
+        "\nratio : ", anotherAnalyzeResult['ratio'],
+        "\nlocale : ", anotherAnalyzeResult['locale'],
+        "\nlocalRisk : ", anotherAnalyzeResult['localRisk']
+)
+
 print("="*10)
 

@@ -5,9 +5,9 @@ Also in ExampleData folder, there is a couple of wav files for testing.
 
 ### run command: python app.py
 
-  <img src="assets/api.usage.gif"  width="60%"/><br>
+  <img src="../assets/api.usage.gif"  width="60%"/><br>
 
 
 ### Postman Example Request
 
-  <img src="assets/api.postman.PNG" width="60%"/><br>
+  <img src="../assets/api.postman.PNG" width="60%"/><br>

@@ -8,13 +8,15 @@
 Covid19 or another respiratory disease symptom detection from voice. 
 
 Using Auto-Encoders and LSTM Networks.
-                                                              
-## Usage :
+
                                                          
 <p align="center">
 
   <img src="assets/usage.gif" width="90%"/>
 </p>
+
+                                                              
+## API :
 
 ### Source codes will be published soon
                                          

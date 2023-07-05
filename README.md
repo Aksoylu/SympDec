@@ -1,6 +1,6 @@
 <p align="center">
   <img src="assets/head.png" alt="Header of SympDetector"/><br>
- You can try working demo on https://covid.aksoylu.space web address.<br><br>
+ You can try working demo on https://ai-covid.umitaksoylu.com web address.<br><br>
 
 </p>
                                                               
